@@ -22,7 +22,6 @@ setup(
     packages=['pojson'],
     include_package_data = True,
     zip_safe=False,
-    setup_requires=['hgtools'],
     install_requires=[
         'argh',
         'polib',
